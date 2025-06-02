@@ -1,7 +1,22 @@
 {
-  "name": "ajs",
+  "name": "ajs-oop",
   "version": "1.0.0",
-  "description": "",
+  "description": "Домашнее задание к теме ООП",
+  "keywords": [
+    "ООП",
+    "тест"
+  ],
+  "homepage": "https://github.com/temo4kin/ajs-oop#readme",
+  "bugs": {
+    "url": "https://github.com/temo4kin/ajs-oop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temo4kin/ajs-oop.git"
+  },
+  "license": "MIT",
+  "author": "Rysaev Damir <freepad@ya.ru>",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
@@ -15,8 +30,6 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
-  "author": "Rysaev Damir <freepad@ya.ru>",
-  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.0",
